@@ -1,0 +1,14 @@
+{
+  "name": "liveyoung",
+  "private": true,
+  "version": "1.0.0",
+  "description": "LiveYoung application monorepo.",
+  "workspaces": [
+    "backend",
+    "web"
+  ],
+  "scripts": {
+    "dev:backend": "npm run dev --workspace=liveyoung-backend",
+    "dev:frontend": "npm run dev --workspace=liveyoung-frontend"
+  }
+}
